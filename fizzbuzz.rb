@@ -3,11 +3,11 @@
 def fizzbuz(int)
   int = int.to_i
   if int % 3 == 0
-    puts "fizz"
+    puts "Fizz"
   elsif int % 5 == 0
-    puts "buzz"
+    puts "Buzz"
   elsif int % 15 == 0
-    puts "fizzbuz"
+    puts "FizzBuzz"
   else
     puts int
   end
