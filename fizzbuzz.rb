@@ -3,12 +3,13 @@
 def fizzbuz(int)
   int = int.to_i
   if int % 3 == 0
-    "Fizz"
+    int = "Fizz"
   elsif int % 5 == 0
-    "Buzz"
+    int = "Buzz"
   elsif int % 15 == 0
-    "FizzBuzz"
+    int = "FizzBuzz"
   else
-    "nil"
+    int = "nil"
   end
+  return int
 end
