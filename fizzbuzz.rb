@@ -4,9 +4,9 @@ def fizzbuzz(int)
   int = int.to_i
   if int % 3 == 0
     int = "Fizz"
-  elsif int % 5 == 0
+  if int % 5 == 0
     int = "Buzz"
-  elsif int % 15 == 0
+  if int % 15 == 0
     int = "FizzBuzz"
   else
     int = "nil"
