@@ -6,28 +6,26 @@ def fizzbuzz(int = [1..100])
 
   if int % 3 == 0
 
-    int = "Fizz"
+    "Fizz"
 
   end
 
   if int % 5 == 0
 
-    int = "Buzz"
+    "Buzz"
 
   end
 
   if int % 15 == 0
 
-    int = "FizzBuzz"
+    "FizzBuzz"
 
   end
 
   if !((int % 3 == 0) || (int % 5 == 0))
 
-    int = "nil"
+    "nil"
 
   end
-
-  return int
 
 end
