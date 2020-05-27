@@ -8,8 +8,7 @@ def fizzbuz(int)
     puts "buzz"
   elsif int % 15 == 0
     puts "fizzbuz"
-  else 
+  else
     puts int
   end
 end
-    
